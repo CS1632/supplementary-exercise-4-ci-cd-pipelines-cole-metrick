@@ -11,7 +11,7 @@ on:
 
 jobs:
   
-  # Runs the Maven test phase on the project
+  # Runs the Maven test phase on the project.
   maven_test:
 
     runs-on: ubuntu-latest
