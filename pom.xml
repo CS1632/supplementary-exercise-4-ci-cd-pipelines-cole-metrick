@@ -33,6 +33,14 @@
     <url>http://github.com/wonsunahn/CS1632_CICD_JUnit/tree/master</url>
    </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Apache Maven Packages</name>
+      <url>https://github.com/CS1632/supplementary-exercise-4-ci-cd-pipelines-cole-metrick/tree/main</url>
+    </repository>
+  </distributionManagement>
+
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
@@ -122,7 +130,7 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
+        <artifactId>cs1632-cicd-pipelines-cam450</artifactId>
         <version>${maven-javadoc-plugin.version}</version>
       </plugin>
     </plugins>
